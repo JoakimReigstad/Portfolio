@@ -103,7 +103,6 @@ section {
 .button {
   border: 0;
   padding: 10px 20px;
-  font-size: 20px;
   background-color: #ef866c;
   width: 80px;
   border-radius: 20px;
@@ -111,10 +110,13 @@ section {
   text-transform: uppercase;
   font-size: 12px;
   text-align: center;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
 }
 
 .button:hover {
   background-color: #ef744b;
+  transform: scale(1.05); /* Add a slight scale effect on hover */
 }
 
 .button:active {
@@ -165,9 +167,6 @@ form {
 .button:hover {
   background-color: #0056b3;
 }
-
-/* Add more styling as needed */
-
 
 @media only screen and (min-width: 500px) {
   footer {
