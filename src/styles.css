@@ -246,4 +246,18 @@ a:active {
     padding: 10px;
     background-color: transparent;
   }
+  .nav-bar li a {
+  text-decoration: none;
+  color: white; /* Set the text color to white */
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-bar li a:hover {
+  color: orangered;
+}
+
+.nav-bar li a:active {
+  color: purple;
+}
 }
