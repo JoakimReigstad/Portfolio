@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #e0e0e0;
 }
 
@@ -60,8 +60,8 @@ section {
 }
 
 .hero-image {
-  height: 250px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
   margin: 30px;
 }
 
@@ -137,7 +137,7 @@ form {
 
 @media only screen and (min-width: 500px) {
   footer {
-    background-color: #ef744b;
+    background-color: #ef866c;
   }
 }
 
@@ -146,8 +146,7 @@ form {
 }
 
 footer {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
 }
