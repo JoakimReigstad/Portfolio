@@ -104,7 +104,7 @@ section {
   border: 0;
   padding: 10px 20px;
   font-size: 20px;
-  background-color: #ef866c;
+  background-color: #ef744b;
   width: 80px;
   border-radius: 20px;
   color: #ffffff;
@@ -114,7 +114,7 @@ section {
 }
 
 .button:hover {
-  background-color: #ef744b;
+  background-color: #ef866c;
 }
 
 .button:active {
@@ -137,7 +137,7 @@ form {
 
 @media only screen and (min-width: 500px) {
   footer {
-    background-color: #ef866c;
+    background-color: #ef744b;
   }
 }
 
