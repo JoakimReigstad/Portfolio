@@ -103,20 +103,18 @@ section {
 .button {
   border: 0;
   padding: 10px 20px;
+  font-size: 20px;
   background-color: #ef866c;
   width: 80px;
   border-radius: 20px;
-  color:  #ef744b;
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 12px;
   text-align: center;
-  transition: background-color 0.3s, transform 0.3s;
-  cursor: pointer;
 }
 
 .button:hover {
   background-color: #ef744b;
-  transform: scale(1.05); /* Add a slight scale effect on hover */
 }
 
 .button:active {
@@ -124,47 +122,17 @@ section {
 }
 
 form {
-  margin: 40px 0;
+  margin: 0 0 40px 0;
 }
 
 .input-section {
-  margin: 40px 0;
+  margin: 20px 0;
+  display: flex;
 }
-.input-group label {
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 5px;
-}
-.input-group input[type="text"] {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  outline: none;
-  transition: border-color 0.3s;
-}
-
-.input-group input[type="text"]:focus {
-  border-color: #007bff;
-}
-
-.input-group input[type="checkbox"],
-.input-group input[type="radio"] {
-  margin-right: 5px;
-}
-
-.button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.button:hover {
-  background-color: #0056b3;
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px 0 0;
 }
 
 @media only screen and (min-width: 500px) {
@@ -178,57 +146,10 @@ form {
 }
 
 footer {
-  background-color: #ef744b;
-  color: white;
-  padding: 40px 0;
-  text-align: center;
-}
-
-footer section {
-  margin-top: 20px;
-}
-
-footer .input-section {
-  margin: 0 auto;
-  max-width: 400px;
-}
-
-footer .input-group label {
-  font-weight: bold;
-  color: #fff;
-  margin-bottom: 5px;
-}
-
-footer .input-group input[type="text"] {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  outline: none;
-  transition: border-color 0.3s;
-}
-
-footer .input-group input[type="text"]:focus {
-  border-color: #007bff;
-}
-
-footer .input-group input[type="checkbox"],
-footer .input-group input[type="radio"] {
-  margin-right: 5px;
-}
-
-footer .button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-footer .button:hover {
-  background-color: #0056b3;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
 }
 
 a {
@@ -291,18 +212,5 @@ a:active {
     padding: 10px;
     background-color: transparent;
   }
-  .nav-bar li a {
-  text-decoration: none;
-  color: white; /* Set the text color to white */
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-.nav-bar li a:hover {
-  color: orangered;
-}
-
-.nav-bar li a:active {
-  color: purple;
 }
 
