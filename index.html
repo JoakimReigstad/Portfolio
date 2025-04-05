@@ -1,107 +1,38 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="src/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <title>Joakim Reigstad Portfolio</title>
-    <meta charset="UTF-8" />
-  </head>
-  <body>
-    <nav>
-      <img
-        class="logo"
-        src="images/javascript-games-logo.png"
-        alt="Joakim Reigstad Logo"
-      ></img>
-      <ul class="nav-bar" id="nav-list">
-        <!--<li><a href="#about-me">About me</a></li>-->
-        <li><a href="https://github.com/Retorin">GitHub</a></li>
-        <li><a href="pages/contact.html">Contact</a></li>
-      </ul>
-      <button class="hamburger" id="hamburger">
-        <i class="fas fa-bars"></i>
-      </button>
-    </nav>
-    <div class="hero">
-      <div class="hero-info">
-          <h1 id="name"> Joakim Reigstad </h1>
-          <p>I am an aspiring Software Developer. I love seeing results and problem solving.</p>
-          <div class="styled-break"></div>
-          <div class="button">Hire me</div>
-      </div>
-      <div>
-        <img
-          class="hero-image"
-          src="images/working-illustration.png"
-          alt="working illustration of a man"
-        />
-      </div>
+    <style>
+        body { font-family: Arial, sans-serif; background: #1f1f1f; color: #ffa500; padding: 20px; }
+        h1, h2 { color: #ff8c00; }
+        a { color: #ffa500; }
+        .cert { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Joakim Reigstad</h1>
+    <h2>Cybersecurity Enthusiast & Lifelong Learner</h2>
+    <p>
+        <a href="https://github.com/JoakimReigstad" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/joakimreigstad/" target="_blank">LinkedIn</a>
+    </p>
+
+    <h2>TryHackMe</h2>
+    <img src="images/tryhackme_badge.png" alt="TryHackMe Badge" width="200"/>
+
+    <h2>Codecademy</h2>
+    <div class="cert">✅ Fundamentals of Cybersecurity Skill Path</div>
+    <div class="cert">✅ Introduction to Ethical Hacking</div>
+
+    <h2>Coursera</h2>
+    <div class="cert">
+        ✅ IBM Cybersecurity Analyst Certificate <br>
+        <a href="https://coursera.org/verify/professional-cert/V8NDBGDURJR9" target="_blank">Verify</a>
     </div>
-    <section>
-      <div class="about-me">
-        <img
-          class="avatar"
-          src="images/Joakim headshot.jpg"
-          alt="Joakim Reigstad Headshot"
-        />
-      </div>
-      <div class="info">
-          <h2><a name="about-me">About Me</a></h2>
-          <p>Born and raised in Norway, I discovered my passion for software development when building my first website for a local American football team.</p>
-      </div>
-    </section>
-    <section>
-      <i class="far fa-user-circle"></i>
-      <i class="far fa-bell"></i>
-      <i class="far fa-bell"></i>
-      <i class="far fa-bell"></i>
-      <i class="far fa-bell"></i>
-    </section>
-    <section>
-      <form>
-        <h2>Contact Me</h2>
-        <div class="input-section">
-          <div class="input-group">
-            <label for="first-name">First name:</label>
-            <input type="text" id="first-name" name="first-name" value=""></input>
-          </div>
-          <div class="input-group">
-          <label for="last-name">Last name:</label>
-          <input type="text" id="last-name" name="last-name" value=""></input>
-          </div>
-        </div>
-       <div class="input-section">
-  <input type="radio" id="office" name="work-location" value="office"></input>
-  <label for="office">Office</label>
-  <input type="radio" id="remote" name="work-location" value="remote"></input>
-  <label for="remote">Remote</label>
-  <input type="radio" id="other" name="work-location" value="other"></input>
-  <label for="other">Other</label>
-  <input type="radio" id="none" name="work-location" value="" style="display: none;" checked></input>
-</div>
-
-       
-        <div class="input-section">
-  <input type="checkbox" id="contract" name="employment" value="contract"></input>
-  <label for="contract">Contract work</label>
-  <input type="checkbox" id="full-time" name="employment" value="full-time"></input>
-  <label for="full-time">Full-time</label>
-</div>
-
-        <input class="button" type="submit" value="submit"></input>
-      </form>
-    </section>
-    <footer>
-      <ul>
-        <!--<li><a href="">About me</a></li>-->
-        <li><a href="">Contact</a></li>
-        <li><a href="https://github.com/Retorin">GitHub</a></li>
-      </ul>
-    </footer>
-    <script src="src/index.js"></script>
-  </body>
+    <div class="cert">
+        ✅ Security Analyst Fundamentals <br>
+        <a href="https://coursera.org/verify/specialization/2ELNWPJZW9P9" target="_blank">Verify</a>
+    </div>
+</body>
 </html>
